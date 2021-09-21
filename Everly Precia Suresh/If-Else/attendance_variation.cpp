@@ -12,7 +12,6 @@ int main(){
         cout<<"You are permitted to write your exam";
     }
     else{
-        cout<<"You are NOT permitted to write your exam"<<endl;
         cout<<"Is the cause of your absence because of medical issues (Y/N) ?";
         char input;
         cin>>input;
