@@ -1,3 +1,5 @@
+// Take two int values from user and print greatest among them.
+
 import java.util.Scanner;
 
 public class greatest{
