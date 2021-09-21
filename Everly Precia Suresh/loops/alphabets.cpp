@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     char x='A';
-    while (x>=65 && x<91){
+    while (x<='Z'){
         cout<<x<<" ";
         x++;
     }
