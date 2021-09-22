@@ -1,4 +1,4 @@
-Level 1
+Level 1<br>
 1.Take values of length and breadth of a rectangle from user and check if it is square or not.<br>
 2.Take two int values from user and print greatest among them.<br>
 3.A shop will give discount of 10% if the cost of purchased quantity is more than 1000.
@@ -38,3 +38,19 @@ c. x != 5 && y >= 5
 d. z != 0 || x == 2
 e. !(y < 10)<br>
 11.Write a program to check whether a entered character is lowercase ( a to z ) or uppercase ( A to Z ).<br>
+
+<br>
+Level 2<br>
+1.Write a program to check if a year is leap year or not.
+If a year is divisible by 4 then it is leap year but if the year is century year like 2000, 1900, 2100 then it must be divisible by 400.<br>
+2.Ask user to enter age, sex ( M or F ), marital status ( Y or N ) and then using following rules print their place of service.
+if employee is female, then she will work only in urban areas.
+
+if employee is a male and age is in between 20 to 40 then he may work in anywhere
+
+if employee is male and age is in between 40 t0 60 then he will work in urban areas only.
+
+And any other input of age should print "ERROR".<br>
+3.A 4 digit number is entered through keyboard. Write a program to print a new number with digits reversed as of orignal one. E.g.-
+INPUT : 1234        OUTPUT : 4321
+INPUT : 5982        OUTPUT : 2895<br>
