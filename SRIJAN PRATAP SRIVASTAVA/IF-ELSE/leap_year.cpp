@@ -8,7 +8,7 @@ int main()
     if (year%4== 0)
     {
         if (year%100!= 0)
-            cout << "lead year";
+            cout << "leap year";
         else if (year%400==0)
             cout << "leap year";
         else 
