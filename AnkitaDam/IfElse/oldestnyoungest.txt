@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int age1,age2,age3;
+    cin >> age1 >>age2 >>age3;
+    if(age1 > age2){
+        if(age3 > age1){
+            cout << "Oldest age: " <<age3<<"\n";
+            cout << "Youngest age: " <<age2;
+        }
+        else{
+            cout << "Oldest age: " <<age1<<"\n";
+            if(age2>age3)
+                cout << "Youngest age: " <<age3;
+            else
+                cout << "Youngest age: " <<age2;
+        }
+    }
+    else{
+        if(age3 > age2){
+            cout << "Oldest age: " <<age3<<"\n";
+            cout << "Youngest age: " <<age1;
+        }
+        else{
+            cout << "Oldest age: " <<age2<<"\n";
+            if(age1 > age3)
+                cout << "Youngest age: " <<age3;
+            else
+                cout << "Youngest age: " <<age1;
+        }
+    }
+    return 0;
+}
