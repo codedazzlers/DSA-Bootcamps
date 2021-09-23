@@ -11,7 +11,6 @@ int main()
      cout<<"the total cost is"<<cost;}
    else
    {
-   
    cout<<"the total cost is "<<cost;}
   return 0;
 }

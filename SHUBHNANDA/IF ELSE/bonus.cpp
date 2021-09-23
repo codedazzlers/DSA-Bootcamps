@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 { int salary,year,bonus;
-  cout<<"enter two no."<<endl;
+  cout<<"enter salary and year of service"<<endl;
   cin>>salary>>year;
   
   if(year>5)
