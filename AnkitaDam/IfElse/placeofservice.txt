@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int age;
+    char sex, maritalstatus;
+    cin >> age >> sex >> maritalstatus;
+    if(sex=='F' && (age>=20 && age<=60))
+        cout << "Urban areas only";
+    else if(sex='M' && age>=20 && age<40)
+        cout <<"Work anywhere";
+    else if(sex='M' && age>=40 && age<=60)
+        cout <<"Urban areas only";
+    else
+        cout<<"Error";
+    return 0;
+}

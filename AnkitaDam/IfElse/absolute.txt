@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num;
+    cin >> num;
+    if(num>=0)
+        cout << "Absolute value of " << num << " is: " << num;
+    else
+        cout << "Absolute value of " << num << " is: " << -1 * num ;
+    return 0;
+}

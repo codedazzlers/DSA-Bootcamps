@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int held, attended;
+    float percent;
+    cin >> held >> attended;
+    percent = (attended * 100.0) / held;
+    cout << "Attendance percentage: " << percent << "\n";
+    if(percent>=75)
+        cout <<"Allowed for exam";
+    else
+        cout <<"Not allowed for exam";
+    return 0;
+}
