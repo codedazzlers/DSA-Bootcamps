@@ -4,9 +4,8 @@ int main() {
   char ch;
   cout<<"do you suffer medical illnes(y/n): "<<endl;
   cin>>ch;
-  int a;
-  a = ch;
-  if(a==121){
+
+  if(ch=='y'){
       cout<<"You are allowed to sit in exam"<<endl;
   }
   else

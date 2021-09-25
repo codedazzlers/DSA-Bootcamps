@@ -4,12 +4,11 @@ int main() {
   char ch;
   cout<<"Enter any alphabet"<<endl;
   cin>>ch;
-  int x;
-  x = ch;
-  if((x>=97) && (x<=122)){
+  
+  if((ch>='a') && (ch<='z')){
       cout<<"lower case alphabet"<<endl;
   }
-  else if ((x>=65) && (x<=90)){
+  else if ((ch>='A') && (ch<='Z')){
       cout<<"upper case alphabet"<<endl;
   }
   else

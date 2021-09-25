@@ -10,16 +10,14 @@ int main() {
   cin>>gender;
   cout<<"Enter your marital status(y/n)"<<endl;
   cin>>marital_status;
-  int a,b;
-  a = gender;
-  b = marital_status;
-  if((gender==102) || (gender==70)){
+  
+  if((gender=='f') || (gender=='F')){
       cout<<"Female are to work only in urban areas"<<endl;
   }
-  else if(((gender==109) || (gender==77)) && ((age>=20) && (age<=40))){
+  else if(((gender=='m') || (gender=='M')) && ((age>=20) && (age<=40))){
       cout<<"May work anywhere"<<endl;
   }
-  else if(((gender==109) || (gender==77)) && ((age>=40) && (age<=60))){
+  else if(((gender=='m') || (gender=='M')) && ((age>=40) && (age<=60))){
       cout<<"May work only in urban area"<<endl;
   }
   else
