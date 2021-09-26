@@ -1,0 +1,22 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    int n,k,r,a,d=0;
+    cin >> n;
+    r=n%10;
+    a=n;
+    while(n!=0){
+        k=n%10;
+        n=n/10;
+        d++;
+    }
+    a=a-k*pow(10,d-1);
+    a=a+r*pow(10,d-1);
+    a=a-r*1;
+    a=a+k*1;
+    cout<<a;
+    return 0;
+}

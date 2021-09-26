@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int length,breadth;
+    cin >> length;
+    cin >> breadth;
+    if(length==breadth)
+        cout<<"Is a square";
+    else
+        cout <<"Not a square";
+    return 0;
+}
