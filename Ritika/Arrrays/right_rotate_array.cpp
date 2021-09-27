@@ -17,7 +17,7 @@ int main()
     {
         cin>>arr[i];
     }
-    cout<<"Enter number of times to left rotate: "<<endl;
+    cout<<"Enter number of times to right rotate: "<<endl;
     cin>>N;
 
     N = N % SIZE;
