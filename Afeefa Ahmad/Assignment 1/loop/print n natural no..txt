@@ -1,0 +1,22 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+int main()
+{
+    cout << "n = ";
+    int n,i;
+
+
+    cin >> n;
+
+
+    while(n >=i)
+    {
+        cout << i<<endl;
+        i++;
+    }
+    return 0;
+}
