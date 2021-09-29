@@ -7,7 +7,7 @@ int number_of_attended_classes;
 cin>>number_of_attended_classes;
 int number_of_held_classes;
 cin>>number_of_held_classes;
-int percentage=(number_of_attended_classes/number_of_held_classes)*100;
+float percentage=(number_of_attended_classes/number_of_held_classes)*100;
 if (percentage>75)
 {
     cout<<"you can sit in examination";

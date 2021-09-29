@@ -5,8 +5,8 @@ int main()
 {
     char x;
     cin >> x;
-    int ascii = int(x);
-    if (ascii >= 65 && ascii <= 90)
+
+    if (x >= 'A' && x <= 'Z')
     {
         cout << "it is a uppercase letter";
     }

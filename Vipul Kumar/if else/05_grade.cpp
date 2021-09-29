@@ -5,6 +5,11 @@ int main()
 {
 int marks;
 cin>>marks;
+if (marks>100)
+{
+    cout<<"invalid input"<<endl;
+}
+
 if (marks>80)
 {
     cout<<"A"<<endl;

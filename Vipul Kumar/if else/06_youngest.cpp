@@ -9,7 +9,7 @@ if (a>b&&a>c)
 {
     cout<<a<<"is oldest";
 }
-else if (b>a&&b>c)
+else if (b>c)
 {
     cout<<b<<"is oldest";
 }

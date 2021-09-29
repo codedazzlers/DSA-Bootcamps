@@ -5,7 +5,7 @@ int main()
 {
 int year_of_service;
 int salary;
-int total_bonus;
+float total_bonus;
 cin>>salary;
 cin>>year_of_service;
 if (year_of_service>5)
