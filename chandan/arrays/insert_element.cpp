@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int arr[100],p,N,b;
-    
+    //matrix
     cout<<"enter size";
     cin>>N;
     cout<<"enter position : "<<endl;

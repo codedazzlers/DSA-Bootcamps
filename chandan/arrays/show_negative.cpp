@@ -13,6 +13,6 @@ int main(){
         if(arr[i]<0){
             count++;
         }
-    }
+    }//matrix
     cout<<"total negative no. in array : "<<count;
 }

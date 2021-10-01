@@ -17,7 +17,7 @@ int main(){
                 arr[j]=P;
 
             }
-        }
+        }//matrix
     }
     cout<<"elements are : "<< endl;
     for(int i=0;i<=N;i++){

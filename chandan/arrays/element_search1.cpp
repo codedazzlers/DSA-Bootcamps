@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
     int arr[100],N,P;
+    //matrix
     cout<<"enter size"<<endl;
     cin>>N;
     cout<<"enter array"<<endl;

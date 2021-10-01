@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
+    //matrix
     int a[3][3];
     int b[3][3];
     int c[3][3];

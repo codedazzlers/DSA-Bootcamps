@@ -12,6 +12,6 @@ int main(){
     cout<<"reverse array: "<<endl;
     for(int i=N-1;i>=0;i--){
         cout<<arr[i];
-    }
+    }//matrix
     return 0;
 }

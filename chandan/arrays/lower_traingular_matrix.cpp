@@ -3,6 +3,7 @@ using namespace std;
 int main(){
     int arr[3][3];
    int sum=0;
+   //matrix
     int row,col,lower;
     //inputs in 1st matrix
     cout<<"enter 1st matrix"<<endl;

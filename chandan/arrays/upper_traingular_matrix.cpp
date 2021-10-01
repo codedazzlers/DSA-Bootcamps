@@ -22,7 +22,7 @@ int main(){
             if(col<row && arr[row][col!=0]){
                 upper=0;
             }
-            }
+            }//matrix
         }
         if(upper==1){
             cout<<"matrix is upper traingular"<<endl;

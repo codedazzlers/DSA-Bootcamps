@@ -5,6 +5,7 @@ int main(){
     int b[3][3];
     int c[3][3];
     int row,col;
+    //matrix
     int sum;
     //inputs in 1st matrix
     cout<<"enter 1st matrix"<<endl;

@@ -3,6 +3,7 @@
 using namespace std;
 int showmaximum(int arr[], int a, int N){
     int max;
+    //matrix
     if(a>=N-2){
     
         if(arr[a]>=arr[a+1]){

@@ -13,7 +13,7 @@ int main(){
     for(row=0;row<3;row++){
         for(col=0;col<3;col++){
             cin>>a[row][col];
-
+//matrix
         }
     }
 

@@ -11,7 +11,7 @@ int main(){int a[3][3];
 
         }
     }
-
+//matrix
     
 //diagonal matrix array
      cout<<"diagonal matrix"<<endl;
