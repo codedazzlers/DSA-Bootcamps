@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	char Ch = 'a'; 
+	
+	cout << "\n****List of Alphabets between a and z are****\n";
+	
+	while(Ch <= 'z')
+	{
+		cout << Ch << " ";
+		Ch++;
+	}
+	
+	return 0;
+}
