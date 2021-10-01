@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int number,d,revnum=0;
+    cin >> number;
+    while(number!=0){
+        d=number%10;
+        number=number/10;
+        revnum=revnum*10 + d;
+    }
+    cout << revnum;
+    return 0;
+}

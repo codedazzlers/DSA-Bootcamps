@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int held, attended;
+    char med;
+    float percent;
+    cin >> held >> attended;
+    cout << "Medical cause (Y/N): \n";
+    cin >> med;
+    percent = (attended * 100.0) / held;
+    cout << "Attendance percentage: " << percent << "\n";
+    if(percent>=75)
+        cout <<"Allowed for exam";
+    else{
+        if(med=='Y')
+            cout <<"Allowed for exam considering medical cause";
+        else
+            cout <<"Not allowed for exam";
+    }
+    return 0;
+}
