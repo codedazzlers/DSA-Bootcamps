@@ -3,6 +3,7 @@ using namespace std;
 int main(){
     int arr[100],N;
     int max1,max2;
+    //matrix
     cout<<"enter array";
     cin>>N;
     for(int i=0;i<=N;i++){

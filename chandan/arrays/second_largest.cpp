@@ -21,7 +21,7 @@ int main(){
         else if(arr[i]>max2 && arr[i]<max1){
             max2=arr[i];
         }
-
+//matrix
     }
     cout<<"second largest element : "<<max2;
     return 0;

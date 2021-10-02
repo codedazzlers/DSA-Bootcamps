@@ -19,7 +19,7 @@ int main(){
     cin>>n;
     for(int i=0;i<=n;i++){
         cin>>arr[i];
-    }
+    }//matrix
     cout<<"arrary looks like this :"<<endl;
     showoutput(arr,0,n);
 }

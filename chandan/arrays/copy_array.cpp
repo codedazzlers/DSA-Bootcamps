@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int arr[100],copy[100],N;
-    
+    //matrix
     cout<<"enter array of 1st array";
     cin>>N;
     for(int i=0;i<=N;i++){

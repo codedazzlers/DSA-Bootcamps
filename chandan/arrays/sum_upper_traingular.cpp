@@ -21,7 +21,7 @@ int main(){
                
             }
             }
-        }
+        }//matrix
         cout<<"sum of upper traingular"<<sum<<endl;
         
         return 0;

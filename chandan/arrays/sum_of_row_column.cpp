@@ -20,7 +20,7 @@ int main(){int a[3][3];
         for(col=0;col<3;col++){
             sum=sum + a[row][col];
 
-        }
+        }//matrix
     }
         cout<<"sum of diagonal matrix"<<sum<<endl;
     
