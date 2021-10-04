@@ -8,12 +8,12 @@ int main()
     cout << "Enter a, b";
     cin>> a >> b;
     if(a > b){
-        cout<<a << " value of a is greater ";
+        cout << a << " is greater than " << b;
     }
     else if(a=b){
         cout << a << " same value";
     }
     else
-        cout <<b<< " value of b is greater";
+        cout << b << " is greater than " << a;
     
 }
