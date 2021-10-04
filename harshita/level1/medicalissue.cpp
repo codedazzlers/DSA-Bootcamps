@@ -14,18 +14,11 @@ int main()
 	total= (attend / numclass)* 100;
 	cout << "Medical Issue(PICK Y/N): ";
 	cin >> issue;
-	if(total< 75){
-	    cout << "Student is not allowed to sit in Exam! ";
-	}
-	else if(issue==Y){
-	    cout << "student is allowed to sit in exam";
-	}
-	else{
-	    cout << "student is allowed to sit in exam";
-	}
-	    
-	
-	
-	
+	if(total >= 75) 
+		cout << "Yes";
+        else if(issue == 'Y')
+		cout << "Yes";
+        else
+		cout << "NO";
 	
 }
