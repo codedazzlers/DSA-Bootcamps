@@ -17,6 +17,6 @@ int main()
 
     else{
         amount= salary;
-        cout << amount << " no bonus";
+        cout << "No Bonus";
     }
 }
