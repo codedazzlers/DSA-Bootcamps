@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+
+void findNumber(int array[], int size, int num)
+{
+    int found = 0;
+
+    for (int i = 0; i < size; i++) 
+    {
+        if (num == array[i]) 
+        {
+            found = 1;
+            break;
+        }
+    }
+    if (found == 1) 
+        cout << "Element Found:" << num;
+    
+    else 
+        cout << "Element not found:" << num;
+}
+
+int main()
+{
+    int array[10], i, size, num;
+
+    cout << "Enter size of an array:";
+    cin>>size;
+
+    cout << "Enter array elements:";
+    for (i = 0; i < size; i++)
+        cin >> array[i];
+    cout << "Enter number for search:";
+    cin>>num;
+    findNumber(array, size, num);
+
+    return 0;
+}
