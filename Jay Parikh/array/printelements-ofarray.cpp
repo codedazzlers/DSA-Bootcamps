@@ -1,5 +1,5 @@
 /* Q1.Write a C program to read and print 
-elements of array. - using recursion.*/
+elements of array. - using recursion.Q1*/
 #include<iostream>
 using namespace std;
 void print(int arr[],int start,int n );

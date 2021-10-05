@@ -1,5 +1,5 @@
 /*Q5.Write a C program to copy all elements
- from an array to another array.*/
+ from an array to another array.Q8*/
 #include<iostream>
 using namespace std;
 int main(){

@@ -1,5 +1,5 @@
 /*Q4.Write a C program to count total number of
- negative elements in an array.*/
+ negative elements in an array.Q7*/
 #include<iostream>
 using namespace std;
 int main(){

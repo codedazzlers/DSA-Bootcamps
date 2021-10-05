@@ -1,5 +1,5 @@
 /*Q3.Write a C program to count total number 
-of even and odd elements in an array.*/
+of even and odd elements in an array.Q6*/
 #include<iostream>
 using namespace std;
 int main(){
