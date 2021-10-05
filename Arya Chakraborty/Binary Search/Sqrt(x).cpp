@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/sqrtx/submissions/
+////time complexity=O(log n)
 
 class Solution
 {

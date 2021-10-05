@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/guess-number-higher-or-lower
+//time complexity=O(log n)
 
 /** 
  * Forward declaration of guess API.

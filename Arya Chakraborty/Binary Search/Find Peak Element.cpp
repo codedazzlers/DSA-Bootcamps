@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/find-peak-element/submissions/
+//time complexity=O(n)
 
 class Solution
 {

@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/arranging-coins/
-
+//time complexity=O(log n)
 class Solution
 {
 public:

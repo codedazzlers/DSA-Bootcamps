@@ -1,3 +1,6 @@
+//https://leetcode.com/problems/valid-perfect-square/
+//time complexity=O(1)
+
 class Solution
 {
 public:

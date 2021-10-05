@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/check-if-n-and-its-double-exist/
+//time complexity=O(n*n)
 
 class Solution
 {

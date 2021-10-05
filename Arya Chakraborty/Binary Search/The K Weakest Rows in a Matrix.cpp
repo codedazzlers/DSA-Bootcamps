@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/submissions/
+//time complexity=O(column_size*row_size)
 
 class Solution
 {

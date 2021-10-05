@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/search-a-2d-matrix-ii/
-
+//time complexity=O(column_size+row_size)
 class Solution
 {
 public:

@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
+//time complexity=O(column_size*row_size)
 
 class Solution
 {

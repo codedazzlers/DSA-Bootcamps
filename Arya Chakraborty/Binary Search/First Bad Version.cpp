@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/first-bad-version/
+//time complexity=O(log n)
 
 // The API isBadVersion is defined for you.
 // bool isBadVersion(int version);

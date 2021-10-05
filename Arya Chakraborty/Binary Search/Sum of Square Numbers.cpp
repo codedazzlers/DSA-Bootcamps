@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/sum-of-square-numbers/submissions/
+//time complexity=O(sqrt c)
 
 class Solution
 {

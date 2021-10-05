@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/search-insert-position/
+//time complexity=O(log n)
 
 class Solution
 {
