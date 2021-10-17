@@ -61,3 +61,12 @@ Solve 10 easy and 5 medium level from [leetcode](https://leetcode.com/problemset
 1. Solve all MCQs from [here](https://www.geeksforgeeks.org/c-language-2-gq/pointers-gq/), don't look at the solutions, or if you don't understand the question or solution, must ask in group.
 2. Basics Problem of Recursion [level 1](https://www.sanfoundry.com/data-structure-questions-answers-recursion/)
 3. [Level 2 Recursion](https://practice.geeksforgeeks.org/explore/?difficulty%5B%5D=-1&difficulty%5B%5D=0&page=1&category%5B%5D=Recursion)
+
+## Assignment 5: Linked List
+
+### Resources:
+1. Watch complete part of linked list from this [playlist](https://www.youtube.com/watch?v=92S4zgXN17o&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P).
+
+### Practise:
+1. Solve all question from [hackerrank](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=linked-lists).
+2. Solve any 8 question from [leetcode](https://leetcode.com/problemset/all/?topicSlugs=linked-list&page=1&difficulty=MEDIUM) of medium level.
