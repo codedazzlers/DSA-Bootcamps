@@ -1,5 +1,10 @@
 # DSA-Bootcamps
-It will contains all the assignment of DSA Bootcamps.
+
+DSA-Bootcamps is a initiative by [Code Dazzlers](https://github.com/codedazzlers) to help students in problem solving. Here you will going to solve 200++ problems in the span of 6 week from all DSA topics. 
+
+1. All session will be live on Google Meet.
+2. If you miss the live session, you can checkout the recorded session at our [youtube channel](https://www.youtube.com/channel/UCegHX4k2lRrNyitwnGALogw). 
+3. You can find all Assigments [here](https://github.com/codedazzlers/DSA-Bootcamps/blob/main/Assignments/readme.md).
 
 ## Contribution Guidelines🏗
 
