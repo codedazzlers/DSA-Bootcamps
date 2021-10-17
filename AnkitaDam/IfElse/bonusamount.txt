@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int bonusper,salary,yos;
+    bonusper = 5;
+    cin >> salary;
+    cin >> yos;
+    if(yos>5)
+        cout << "Bonus: " << (bonusper*salary)/100.0;
+    else
+        cout<<"Bonus: " << 0;
+    return 0;
+}

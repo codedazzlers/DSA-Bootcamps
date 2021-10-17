@@ -1,0 +1,11 @@
+{
+  "java.project.sourcePaths": [
+    "Arnav Sharma/Assignment-0/if-else",
+    "Arnav Sharma/Assignment-0/Loops"
+  ],
+  "files.associations": {
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "istream": "cpp"
+  }
+}

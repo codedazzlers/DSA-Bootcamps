@@ -1,0 +1,57 @@
+#include <iostream>
+#define MAX_SIZE 100 
+using namespace std;
+
+void printArray(int arr[], int len);
+ 
+int main()
+{
+    int arr[MAX_SIZE];
+    int even[MAX_SIZE];
+    int odd[MAX_SIZE];
+ 
+    int evenCount, oddCount;
+    int i, size;
+ 
+        cout<<"Enter size of the array: ";
+        cin>>size;
+
+       cout<<"Enter elements in the array: ";
+       for (i = 0; i < size; i++)
+          cin>>arr[i];
+     
+        evenCount = 0;
+        oddCount = 0;
+ 
+            for (i = 0; i < size; i++) 
+            {
+                if (arr[i] & 1)
+                {
+                    odd[oddCount] = arr[i];
+                    oddCount++;
+                }     
+                else
+                {
+                    even[evenCount] = arr[i];
+                    evenCount++;
+                }
+            }
+ 
+        cout<<"\nElements of even array: ";
+        printArray(even, evenCount);
+ 
+        cout<<"\nElements of odd array: ";
+        printArray(odd, oddCount);
+ 
+        return 0;
+}
+      
+    void printArray(int arr[], int len)
+    {
+        int i;
+ 
+        for (i = 0; i < len; i++) 
+            cout<<arr[i]<<"\t";
+      
+     cout<<"\n";
+    }

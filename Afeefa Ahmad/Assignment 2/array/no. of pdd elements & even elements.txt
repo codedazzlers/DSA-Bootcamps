@@ -1,0 +1,39 @@
+//Write a cpp program to count total number of even and odd elements in an array.
+
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+    int arr[100];
+    int i,size,odd=0,even=0;
+
+    cout<<"Enter size of the array :";
+    cin>>size;
+    cout<<"\nEnter elements of the array:\n";
+
+
+    for(i=0; i<size; i++)
+    {
+        cout<<"Enter the element arr["<<i<<"] :";
+        cin>>arr[i];
+    }
+
+
+    for(i=0; i<size; i++)
+    {
+        if(arr[i]%2==0)
+        {
+            even++;
+        }
+        else{
+            odd++;
+        }
+
+    }
+
+    cout<<"\nTotal even numbers of an array :"<<even<<"\n";
+    cout<<"Total odd numbers of an array : "<<odd;
+    return 0;
+}
