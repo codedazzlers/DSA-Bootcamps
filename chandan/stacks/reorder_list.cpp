@@ -14,6 +14,8 @@ public:
             ListNode *tmp1=firstListStart->next;
             firstListStart->next=secondListStartReversed;
             firstListStart=tmp1;
+            //second
+            
             
             ListNode *tmp2=secondListStartReversed->next;
             secondListStartReversed->next=tmp1;            
